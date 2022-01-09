@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="AC">AC</string>
+    <string name="plus_minus">+/-</string>
+    <string name="procent">%</string>
+    <string name="delenie">/</string>
+    <string name="umnojenie">x</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="rovno">=</string>
+    <string name="zapyataya">.</string>
+    <string name="b0">0</string>
+    <string name="b1">1</string>
+    <string name="b2">2</string>
+    <string name="b3">3</string>
+    <string name="b4">4</string>
+    <string name="b5">5</string>
+    <string name="b6">6</string>
+    <string name="b7">7</string>
+    <string name="b8">8</string>
+    <string name="b9">9</string>
+    <string name="skobka_1">(</string>
+    <string name="skobka_2">)</string>
+    <string name="x2">x^2</string>
+    <string name="xy">x^y</string>
+    <string name="sqrt">sqrt</string>
+    <string name="cos">cos</string>
+    <string name="sin">sin</string>
+    <string name="tg">tg</string>
+    <string name="atan">atan</string>
+    <string name="fakt">x!</string>
+    <string name="rand">Rand</string>
+    <string name="log10">log10</string>
+    <string name="pi">pi</string>
+    <string name="ln">ln</string>
+    <string name="ex">e^x</string>
+</resources>

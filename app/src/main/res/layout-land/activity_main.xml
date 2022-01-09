@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:gravity="right"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:id="@+id/result_1">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/input"
+            android:textColor="@color/white"
+            android:gravity="right"
+            android:textSize="40sp"
+            android:layout_margin="5dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/knopka_dark"
+                android:text="@string/skobka_1"
+                android:id="@+id/skobka_1">
+            </Button>
+
+            <Button
+                style="@style/knopka_dark"
+                android:text="@string/skobka_2"
+                android:id="@+id/skobka_2">
+            </Button>
+
+            <Button
+                style="@style/knopka_dark"
+                android:text="@string/sin"
+                android:id="@+id/sin">
+            </Button>
+
+            <Button
+                style="@style/knopka_dark"
+                android:text="@string/AC"
+                android:id="@+id/ac">
+            </Button>
+
+            <Button
+                style="@style/knopka_dark"
+                android:text="@string/plus_minus"
+                android:id="@+id/plusminus">
+            </Button>
+
+            <Button
+                style="@style/knopka_dark"
+                android:text="@string/procent"
+                android:id="@+id/procent">
+            </Button>
+
+            <Button
+                style="@style/knopka_orange"
+                android:text="@string/delenie"
+                android:id="@+id/delenie">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/x2"
+                android:id="@+id/x2">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/xy"
+                android:id="@+id/xy">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/sqrt"
+                android:id="@+id/sqrt">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b7"
+                android:id="@+id/b7">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b8"
+                android:id="@+id/b8">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b9"
+                android:id="@+id/b9">
+            </Button>
+
+            <Button
+                style="@style/knopka_orange"
+                android:text="@string/umnojenie"
+                android:id="@+id/umnojenie">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/fakt"
+                android:id="@+id/fakt">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/atan"
+                android:id="@+id/atan">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/rand"
+                android:id="@+id/rand">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b4"
+                android:id="@+id/b4">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b5"
+                android:id="@+id/b5">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b6"
+                android:id="@+id/b6">
+            </Button>
+
+            <Button
+                style="@style/knopka_orange"
+                android:text="@string/minus"
+                android:id="@+id/minus">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/cos"
+                android:id="@+id/cos">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/tg"
+                android:id="@+id/tg">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/pi"
+                android:id="@+id/pi">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b1"
+                android:id="@+id/b1">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b2"
+                android:id="@+id/b2">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b3"
+                android:id="@+id/b3">
+            </Button>
+
+            <Button
+                style="@style/knopka_orange"
+                android:text="@string/plus"
+                android:id="@+id/plus">
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/log10"
+                android:id="@+id/log">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/ln"
+                android:id="@+id/ln">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/ex"
+                android:id="@+id/ex">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/b0"
+                android:id="@+id/b0"
+                android:layout_weight="0.835">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/zapyataya"
+                android:id="@+id/zapyataya">
+            </Button>
+
+            <Button
+                style="@style/knopka"
+                android:text="@string/rovno"
+                android:id="@+id/rovno">
+            </Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
